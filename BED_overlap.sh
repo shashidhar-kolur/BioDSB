@@ -5,8 +5,8 @@
 #SBATCH --time=0-1                                  # Time limit of 1 hour
 #SBATCH --mem=4G                                    # Memory limit of 4Gb
 #SBATCH --job-name=BED_overlap                      # Job name
-#SBATCH -o /gpfs/home/rpr23sxu/scratch/Teaching/BED_overlap/Output_Messages/BED_overlap.out   # Output file
-#SBATCH -e /gpfs/home/rpr23sxu/scratch/Teaching/BED_overlap/Error_Messages/BED_overlap.err    # Error file
+#SBATCH -o /gpfs/home/qyf24zpu/scratch/Teaching/BED_overlap/Output_Messages/BED_overlap.out   # Output file
+#SBATCH -e /gpfs/home/qyf24zpu/scratch/Teaching/BED_overlap/Error_Messages/BED_overlap.err    # Error file
 #SBATCH --mail-type=ALL                             # Send email on job start, end, and abort
 #SBATCH --mail-user=rpr23sxu@uea.ac.uk              # Email address
 
